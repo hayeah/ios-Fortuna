@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         println("Hacking in Swift, since iOS8")
@@ -17,12 +18,14 @@ class ViewController: UIViewController {
         println("view: \(self.view)")
         println("view's frame: \(self.view.frame)")
         // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 
 }
